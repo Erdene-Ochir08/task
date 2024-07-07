@@ -1,0 +1,90 @@
+body{
+    background-color: aliceblue !important;
+}
+.dash{
+    background-color: #fff;
+    width: 100%;
+    height: 80vh;
+    margin-top: 40px;
+    border-radius: 40px;
+}
+.menu{
+    padding: 30px;
+}
+.menu .m-title{
+    color: cornflowerblue;
+}
+.menu .profile{
+    margin: 30px 0;
+    background-color: aliceblue;
+    padding: 10px 30px;
+    border-radius: 40px;
+    text-align: center;
+}
+.menu .profile .name{
+    color: #333;
+    margin-bottom: 0;
+}
+.menu .profile .dep{
+    color: #BDC3C7;
+    font-size: 14px;
+}
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.menu ul li{
+    margin-bottom: 20px;
+}
+.menu ul li a{
+    color: #333;
+    text-decoration: none;
+}
+.menu ul li a i{
+    margin-right: 10px;
+}
+.dash .content{
+    width: 100%;
+    background-color: aliceblue;
+    height: 80vh;
+    padding: 30px;
+}
+.dash .content .text{
+    background-color: #fff;
+    height: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 15px;
+}
+.dash .content .diagram{
+    width: 100%;
+}
+/* Teacher */
+.teacher, .teacher tr, .teacher td, .teacher th{
+    border: 1px solid #f3f3f3;
+    max-height: 70px;
+    padding: 10px;
+}
+.text{
+    overflow-y: scroll;
+}
+/* add teacher */
+.add_t input, .add_t select{
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border:1px solid #dee2e6;
+    border-radius: 8px;
+}
+.add_t .gender{
+    width: 50px;
+}
+.add_t h4{
+    margin-bottom: 30px;
+}
+.btn-primary a, .btn-danger a{
+    color: #fff;
+    text-decoration: none;
+}
